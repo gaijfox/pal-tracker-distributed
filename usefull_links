@@ -1,0 +1,7 @@
+Helpfull links:
+
+https://github.com/JoeDog/siege
+
+Commands:
+siege --concurrent=50 --content-type="application/json" 'http://allocations-pal-lab-desk1.apps.pikes.pal.pivotal.io/allocations POST {\"projectId\": 4, \"userId\": 4, \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}'
+siege --concurrent=50 --content-type="application/json" 'http://timesheets-pal-lab-desk1.apps.pikes.pal.pivotal.io/time-entries POST {"projectId": 4, "userId": 4, "date": "2015-05-17", "hours": 6}'
